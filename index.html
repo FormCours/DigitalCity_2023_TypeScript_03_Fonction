@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <h1>Calculatrice</h1>
+    <form id="calc-form">
+        <div>
+            <label for="nb1">Nombre 1 : </label>
+            <input id="nb1" type="number" required>
+        </div>
+        <div>
+            <label for="nb2">Nombre 2 : </label>
+            <input id="nb2" type="number" required>
+        </div>
+        <div>
+            <label for="op">Operateur : </label>
+            <select id="op">
+                <option value="add">+</option>
+                <option value="sub">-</option>
+                <option value="multi">x</option>
+                <option value="div">/</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Calculer...</button>
+        </div>
+        <div>
+            <label for="res">Résultat : </label>
+            <input id='res' type="text" readonly>
+        </div>
+    </form>
+</body>
+</html>
